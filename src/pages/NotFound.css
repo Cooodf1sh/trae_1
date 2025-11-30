@@ -1,0 +1,74 @@
+.not-found {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.not-found-container {
+  text-align: center;
+  max-width: 500px;
+  background-color: var(--card-background);
+  padding: 60px 40px;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border-color);
+}
+
+.not-found-title {
+  font-size: 5rem;
+  margin: 0;
+  color: var(--accent-color);
+  line-height: 1;
+  font-weight: 700;
+}
+
+.not-found-container h2 {
+  font-size: 1.8rem;
+  margin: 20px 0 16px;
+  color: var(--primary-color);
+}
+
+.not-found-container p {
+  color: var(--secondary-color);
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+}
+
+.back-home {
+  display: inline-block;
+  background-color: var(--accent-color);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.back-home:hover {
+  background-color: #0052a3;
+  text-decoration: none;
+  color: white;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .not-found-container {
+    padding: 40px 20px;
+    margin: 0 15px;
+  }
+  
+  .not-found-title {
+    font-size: 4rem;
+  }
+  
+  .not-found-container h2 {
+    font-size: 1.5rem;
+  }
+  
+  .not-found-container p {
+    font-size: 1rem;
+  }
+}
